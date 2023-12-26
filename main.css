@@ -508,6 +508,31 @@ header .search-bar-container label:hover{
 /*--contact--*/
 
 
+.home-contact{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.12),rgba(0,0,0,.5)),url(/finalproject/images/swimmingpool.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    z-index: 0;
+}
+
+.home-contact .content{
+    text-align: center;
+}
+
+.home-contact .content h2{
+    font-size: 6rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
+}
 .contact .row{
     display: flex;
     flex-wrap: wrap;
@@ -515,12 +540,12 @@ header .search-bar-container label:hover{
 }
 
 .contact .row iframe{
-    flex: 1 1 35rem;
+    flex: 1 1 50rem;
     width: 100%;
 }
 .contact .row form{
-    flex: 1 1 35rem;
-    padding: 2rem;
+    flex: 1 1 50rem;
+    padding: 4rem;
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
     border-radius: .5rem;
 }
@@ -547,40 +572,14 @@ header .search-bar-container label:hover{
     width: 100%;
 }
 
-.home-contact{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,.12),rgba(0,0,0,.5)),url(/finalproject/images/swimmingpool.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-    position: relative;
-    z-index: 0;
-}
-
-.home-contact .content{
-    text-align: center;
-}
-
-.home-contact .content h2{
-    font-size: 6rem;
-    color: #fff;
-    text-transform: uppercase;
-    text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
-}
-
-
 .contact .row .row1{
-    flex: 1 1 35rem;
-    padding: 2rem;
+    flex: 1 1 50rem;
+    padding: 4rem;
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
     border-radius: .5rem;
     background-color: beige;
 }
+
 
 .contact .row .row1 h3{
     font-size: 3.5rem;
