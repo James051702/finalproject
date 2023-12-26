@@ -312,7 +312,7 @@ header .search-bar-container label:hover{
 .packages .box-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .packages .box-container .box{
@@ -354,7 +354,7 @@ header .search-bar-container label:hover{
 .gallery .box-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 3rem;
 }
 
 .gallery .box-container .box{
