@@ -883,7 +883,7 @@ header .search-bar-container label:hover{
 
 
 
-@media (min-width:768px){
+@media (max-width:768px){
     #menu-bar{
         display: initial;
     }
