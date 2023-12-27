@@ -883,10 +883,14 @@ header .search-bar-container label:hover{
 
 
 
-@media (max-width:768px){
+@media (min-width:768px){
     #menu-bar{
         display: initial;
     }
+    html{
+        font-size: 55%;
+    }
+
     header .navbar{
         position: absolute;
         top: 100%; right: 0; left: 0;
@@ -928,7 +932,7 @@ header .search-bar-container label:hover{
     }
     
     .home-packages .content h2{
-        font-size: 5rem;
+        font-size: 6rem;
         color: #fff;
         text-transform: uppercase;
         text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
@@ -939,7 +943,7 @@ header .search-bar-container label:hover{
     }
     
     .home-gallery .content h2{
-        font-size: 5rem;
+        font-size: 6rem;
         color: #fff;
         text-transform: uppercase;
         text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
@@ -950,7 +954,7 @@ header .search-bar-container label:hover{
     }
     
     .home-contact .content h2{
-        font-size: 5rem;
+        font-size: 6rem;
         color: #fff;
         text-transform: uppercase;
         text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
